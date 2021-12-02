@@ -6,6 +6,6 @@ COPY package*.json ./
 COPY build ./
 
 FROM nginx:latest
-COPY --from= prodbuild /app/build /usr/share/nginx/html
+COPY --from=prodbuild /app/build /usr/share/nginx/html
 EXPOSE 8081
 CMD ["nginx", "-g", "daemon off;"]
