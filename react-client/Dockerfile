@@ -1,7 +1,6 @@
 
 FROM node:latest as prodbuild
 WORKDIR /app
-EXPOSE 80
 COPY package*.json ./
 COPY build ./build
 
