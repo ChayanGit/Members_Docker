@@ -3,7 +3,8 @@ FROM node:latest as prodbuild
 WORKDIR /app
 EXPOSE 8081
 COPY package*.json ./
-COPY build ./
+COPY build /app
+RUN npm install
 
 FROM nginx:latest
 COPY --from=prodbuild /app/build /usr/share/nginx/html
