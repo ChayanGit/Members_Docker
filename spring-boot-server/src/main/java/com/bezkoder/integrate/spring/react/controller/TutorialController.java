@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.bezkoder.integrate.spring.react.model.Tutorial;
 import com.bezkoder.integrate.spring.react.repository.TutorialRepository;
 
-@CrossOrigin(origins = "http://18.219.3.148:8081")
+@CrossOrigin(origins = "http://3.144.250.98:80")
 @RestController
 @RequestMapping("/api")
 public class TutorialController {

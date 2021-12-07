@@ -1,0 +1,14 @@
+version: '3.9'
+services:
+    tutorialsapp:
+      image: choudhurychayan1/tutorialsapp:V1
+      ports:
+         - "80:80"
+    tutorialsdb:
+      image: choudhurychayan1/tutorialsdb:V1
+      ports:
+         - "3306:3306"
+    tutorialsbackend:
+      image: choudhurychayan1/tutorialsbck:V1
+      ports:
+         - "8080:8080"

@@ -42,7 +42,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### Set port
 .env
 ```
-PORT=8081
+PORT=80
 ```
 
 ## Project setup
@@ -65,6 +65,6 @@ npm start
 yarn start
 ```
 
-Open [http://18.219.3.148:8081](http://18.219.3.148:8081) to view it in the browser.
+Open [http://3.144.250.98:80](http://3.144.250.98:80) to view it in the browser.
 
 The page will reload if you make edits.

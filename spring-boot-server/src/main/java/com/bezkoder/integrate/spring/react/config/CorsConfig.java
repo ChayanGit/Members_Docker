@@ -17,7 +17,7 @@ public class CorsConfig{
 				registry.addMapping("/**")
 					.allowedMethods("GET", "POST", "PUT", "DELETE")
 					.allowedHeaders("*")
-					.allowedOrigins("http://18.219.3.148:8081");
+					.allowedOrigins("http://3.144.250.98:80");
 			}
 		};
 	}
