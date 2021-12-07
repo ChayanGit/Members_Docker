@@ -1,0 +1,5 @@
+/root/Members_N/spring-boot-server/src/main/java/com/bezkoder/integrate/spring/react/controller/TutorialController.java
+/root/Members_N/spring-boot-server/src/main/java/com/bezkoder/integrate/spring/react/model/Tutorial.java
+/root/Members_N/spring-boot-server/src/main/java/com/bezkoder/integrate/spring/react/config/CorsConfig.java
+/root/Members_N/spring-boot-server/src/main/java/com/bezkoder/integrate/spring/react/SpringBootReactMysqlApplication.java
+/root/Members_N/spring-boot-server/src/main/java/com/bezkoder/integrate/spring/react/repository/TutorialRepository.java

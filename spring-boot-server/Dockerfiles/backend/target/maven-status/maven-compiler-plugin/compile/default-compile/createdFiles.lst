@@ -1,0 +1,6 @@
+com/bezkoder/integrate/spring/react/config/CorsConfig.class
+com/bezkoder/integrate/spring/react/SpringBootReactMysqlApplication.class
+com/bezkoder/integrate/spring/react/repository/TutorialRepository.class
+com/bezkoder/integrate/spring/react/model/Tutorial.class
+com/bezkoder/integrate/spring/react/config/CorsConfig$1.class
+com/bezkoder/integrate/spring/react/controller/TutorialController.class
